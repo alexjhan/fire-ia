@@ -47,6 +47,12 @@ export default {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
+        // Custom map interface colors
+        "map-bg": "hsl(var(--map-background))",
+        "chat-bg": "hsl(var(--chat-background))",
+        "chat-border": "hsl(var(--chat-border))",
+        "message-bubble": "hsl(var(--message-bubble))",
+        "message-bubble-secondary": "hsl(var(--message-bubble-secondary))",
         sidebar: {
           DEFAULT: "hsl(var(--sidebar-background))",
           foreground: "hsl(var(--sidebar-foreground))",
@@ -62,6 +68,10 @@ export default {
         lg: "var(--radius)",
         md: "calc(var(--radius) - 2px)",
         sm: "calc(var(--radius) - 4px)",
+      },
+      boxShadow: {
+        'soft': '0 2px 8px hsl(var(--shadow-soft))',
+        'medium': '0 4px 16px hsl(var(--shadow-medium))',
       },
       keyframes: {
         "accordion-down": {
